@@ -1,0 +1,19 @@
+CURRÍCULUM WEB DE JESÚS BARRETO
+
+1. Extrae la carpeta ZIP.
+2. Abre index.html en tu navegador. También puedes abrir la carpeta con Visual Studio Code y usar Live Server.
+3. Los datos de contacto y tu página web ya están incorporados. Puedes modificarlos en index.html, en la sección Contacto.
+4. Para convertir el contacto en un enlace, sustituye el texto pendiente por un enlace HTML. Por ejemplo: <a href="mailto:TU_CORREO">TU_CORREO</a>.
+5. Revisa los proyectos y tecnologías para que reflejen tu experiencia y nivel actuales.
+6. Pulsa Imprimir / Guardar PDF y selecciona Guardar como PDF en tu navegador.
+
+Archivos:
+index.html: contenido del currículum.
+barrett.css: diseño responsive, modo oscuro y estilo de impresión.
+app.js: cambio de tema y botón de impresión.
+
+No requiere instalaciones ni conexión a Internet. No contiene fotos ni dependencias externas. Las ilustraciones de los proyectos están hechas con CSS. Los contactos pendientes no envían mensajes.
+
+Pulsa Ver proyecto y características para abrir sus detalles. Cierra con Cerrar, Escape o pulsando fuera. Los detalles completos también se incluyen en la impresión.
+
+NAVEGACIÓN: index.html (Inicio), proyectos.html (3 proyectos por página), formacion.html, contacto.html. curriculum-completo.html reúne todo para imprimir o guardar como PDF.
