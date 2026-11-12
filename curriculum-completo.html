@@ -1,15 +1,57 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Currículum de Jesús Barreto, desarrollador web junior en formación. Proyectos web de Barrett Tecnología.">
-<title>Currículum completo | Jesús Barreto</title>
-<link rel="stylesheet" href="barrett.css"><script src="app.js" defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Currículum de Jesús Barreto, desarrollador web junior en formación. Proyectos web de Barrett Tecnología.">
+  <title>Currículum completo | Jesús Barreto</title>
+  <link rel="stylesheet" href="barrett.css">
+  <script src="app.js" defer></script>
 </head>
 <body>
-<header class="header"><a class="brand" href="index.html" aria-label="Volver al inicio">JB<span>Jesús Barreto</span></a><nav aria-label="Principal"><a href="index.html">Inicio</a><a href="proyectos.html">Proyectos</a><a href="formacion.html">Formación</a><a href="contacto.html">Contacto</a><a href="chef-guayoyo.html">Chef Guayoyo</a><button id="tema" type="button" aria-pressed="false">Modo oscuro</button><span class="language-current" lang="es" aria-current="true">Español</span><a class="language-switch" href="en/curriculum-completo.html" lang="en" hreflang="en" aria-label="Switch to English">English</a></nav></header>
-<main id="inicio">
-<section class="hero"><div><p class="eyebrow">CURRÍCULUM · BARRETT TECNOLOGÍA</p><h1>Jesús<br><span>Barreto.</span></h1><p class="role">Desarrollador web junior</p><p class="intro">Construyo proyectos web y busco mi primera oportunidad en un equipo donde seguir aprendiendo y adquirir experiencia profesional.</p><div class="actions"><a class="button primary" href="proyectos.html">Explorar proyectos <span aria-hidden="true">↗</span></a><button class="button" id="imprimir" type="button">Imprimir / Guardar PDF</button></div><p class="location">Alcorcón, Madrid · España</p></div><aside class="code" aria-label="Resumen del perfil en formato de código"><div class="code-top"><span></span><span></span><span></span><p>perfil.js</p></div><pre><code><span class="purple">const</span> desarrollador = {
+  <!-- BLOQUE 01 — Cabecera -->
+  <header class="header">
+    <a class="brand" href="index.html" aria-label="Volver al inicio">JB<span>Jesús Barreto</span></a>
+    <nav aria-label="Principal">
+      <a href="index.html">Inicio</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="formacion.html">Formación</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="chef-guayoyo.html">Chef Guayoyo</a>
+      <button id="tema" type="button" aria-pressed="false">Modo oscuro</button>
+      <span class="language-current" lang="es" aria-current="true">Español</span>
+      <a class="language-switch" href="en/curriculum-completo.html" lang="en" hreflang="en" aria-label="Switch to English">English</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <!-- BLOQUE 02 — Presentación -->
+    <section class="hero">
+      <div>
+        <p class="eyebrow">CURRÍCULUM · BARRETT TECNOLOGÍA</p>
+        <h1>Jesús<br><span>Barreto.</span></h1>
+        <p class="role">Desarrollador web junior</p>
+        <p class="intro">
+          Construyo proyectos web y busco mi primera oportunidad en un equipo donde
+          seguir aprendiendo y adquirir experiencia profesional.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="proyectos.html">
+            Explorar proyectos <span aria-hidden="true">↗</span>
+          </a>
+          <button class="button" id="imprimir" type="button">Imprimir / Guardar PDF</button>
+        </div>
+        <p class="location">Alcorcón, Madrid · España</p>
+      </div>
+
+      <aside class="code" aria-label="Resumen del perfil en formato de código">
+        <div class="code-top">
+          <span></span>
+          <span></span>
+          <span></span>
+          <p>perfil.js</p>
+        </div>
+        <pre><code><span class="purple">const</span> desarrollador = {
   nombre: <span class="green">"Jesús Barreto"</span>,
   perfil: <span class="green">"Web junior"</span>,
   formacion: <span class="green">"MasterD"</span>,
@@ -19,21 +61,591 @@
     <span class="green">"Proyectos propios"</span>,
     <span class="green">"Aprendizaje continuo"</span>
   ]
-};</code></pre><div class="code-bottom">&lt;/&gt; Una idea, una interfaz, un nuevo aprendizaje.</div></aside></section>
-<section class="about section" aria-labelledby="perfil"><p class="eyebrow">01 / SOBRE MÍ</p><h2 id="perfil">Experiencia real en hostelería.<br>Una nueva etapa en desarrollo.</h2><p>Actualmente curso el Curso Superior en Programación de Páginas Web en MasterD. Desarrollo proyectos propios bajo la marca Barrett Tecnología, con especial interés en soluciones para hostelería, comercio y gastronomía. Mi experiencia en cocina me ayuda a comprender las necesidades de las personas que utilizan estas herramientas.</p><p>Trabajo con apoyo de herramientas de inteligencia artificial y continúo aprendiendo a comprender, revisar y mejorar el código de mis proyectos.</p></section>
-<section class="section" id="proyectos"><div class="section-head"><div><p class="eyebrow">02 / TRABAJO PROPIO</p><h2>Proyectos seleccionados</h2></div><p>Aplicaciones y sitios en evolución.</p></div><div class="projects">
-<article class="project"><div class="project-art access project-screenshot"><img src="assets/drago-access.png" alt="Vista conceptual de Drago Access en ordenador y móvil, con acceso por QR, clave personal o DNI/NIE." loading="lazy" width="1672" height="941"></div><div class="project-content"><p class="label">DEMOSTRACIÓN · INTEGRACIÓN REAL PREPARADA</p><h3>Drago Access</h3><p>Aplicación de control de acceso de empleados con identificación por QR, clave personal o DNI/NIE, registro de fecha y hora e historial consultable.</p><ul class="tags" aria-label="Tecnologías de Drago Access"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Node.js · Pruebas</li><li>Git</li></ul><div class="project-details"><p>Interfaz adaptable a móvil, tablet y ordenador. Código separado en interfaz, lógica de identificación y validaciones, y adaptador preparado para conectar un servidor real. Funciona con datos de demostración cuando no hay servidor conectado.</p><p>Pruebas de funcionamiento ejecutadas con Node.js y npm, control de versiones con Git y documentación de configuración e integración.</p><h4>Características del proyecto</h4><ul class="feature-list"><li>Lectura de QR mediante cámara.</li><li>Identificación con clave personal o DNI/NIE.</li><li>Registro de fecha y hora y estados de acceso.</li><li>Gestión de empleados e historial consultable.</li><li>Datos de demostración y adaptador para servidor real.</li><li>Pruebas con Node.js y npm, Git y documentación de integración.</li></ul></div><button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="0">Ver proyecto y características ↗</button></div></article><article class="project"><div class="project-art reservas project-screenshot"><img src="assets/drago-reservas.png" alt="Concepto visual de DRAGO RESERVAS en ordenador y móvil con buscador de mesas, restaurantes y servicios gastronómicos." loading="lazy" width="1536" height="1024"></div><div class="project-content"><p class="label">HOSTELERÍA · DEMOSTRACIÓN CON DATOS LOCALES</p><h3>DRAGO RESERVAS</h3><p>Proyecto web para reservas de restaurantes, con horarios, aforo, lista de espera, favoritos y exportación al calendario mediante archivos .ics. Incluye traducciones a diez idiomas, galería táctil, escandallo integrado y pedidos de delivery de prueba.</p><ul class="tags" aria-label="Tecnologías del proyecto"><li>HTML / CSS</li><li>JavaScript</li><li>localStorage</li><li>IndexedDB</li><li>Node.js · Pruebas</li></ul><div class="project-details"><p>Organización del código por funcionalidades, datos de demostración en localStorage, vídeos locales en IndexedDB, copias de seguridad y restauración. Incluye pruebas automáticas ejecutadas con Node.js y un asistente con respuestas predefinidas.</p><h4>Características del proyecto</h4><ul class="feature-list"><li>Agenda, horarios, aforo y modificación de reservas.</li><li>Clientes, favoritos y lista de espera.</li><li>Carta, delivery opcional y pedidos de prueba.</li><li>Exportación de reservas al calendario en formato .ics.</li><li>Traducciones a diez idiomas y galería con navegación táctil.</li><li>Escandallo Chef Guayoyo integrado.</li><li>Vídeos locales con IndexedDB y datos con localStorage.</li><li>Copias de seguridad, restauración y resumen de actividad.</li><li>DRAGO Guía con respuestas predefinidas.</li><li>Pruebas automáticas con Node.js.</li></ul></div><button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="1">Ver proyecto y características ↗</button></div></article>
+};</code></pre>
+        <div class="code-bottom">&lt;/&gt; Una idea, una interfaz, un nuevo aprendizaje.</div>
+      </aside>
+    </section>
 
-<article class="project"><div class="project-art drago-ai project-screenshot"><img src="assets/drago-ia-destructor.png" alt="Presentación de la arquitectura del proyecto DRAGO-IA DESTRUCTOR, con React, FastAPI, Ollama y Qwen3." loading="lazy" width="1672" height="941"></div><div class="project-content"><p class="label">DESTRUCTOR · PROYECTO PERSONAL EN DESARROLLO</p><h3>DRAGO-IA DESTRUCTOR</h3><p>Asistente de inteligencia artificial que funciona principalmente en mi ordenador. Trabajo en una interfaz de tres columnas con React y Vite, conectada mediante HTTP y API REST a un servidor Python con FastAPI y validación de datos con Pydantic.</p><ul class="tags" aria-label="Tecnologías del proyecto"><li>React / JSX</li><li>Vite</li><li>Python / FastAPI</li><li>Pydantic</li><li>API REST</li><li>Ollama / Qwen3 8B</li></ul><div class="project-details"><p>Integración de Ollama para ejecutar localmente el modelo Qwen3 8B, con control sobre la interfaz y los datos del proyecto.</p><h4>Características del proyecto</h4><ul class="feature-list"><li>Interfaz de tres columnas con React, JSX y CSS.</li><li>Desarrollo y compilación de la interfaz con Vite.</li><li>Servidor Python con FastAPI.</li><li>Validación de datos del backend con Pydantic.</li><li>Comunicación HTTP y API REST entre interfaz, servidor y Ollama.</li><li>Ejecución local de Qwen3 mediante el modelo qwen3:8b.</li><li>Herramientas de trabajo: VS Code, Node.js, npm y PowerShell.</li></ul></div><button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="2">Ver proyecto y características ↗</button></div></article>
+    <!-- BLOQUE 03 — Sobre mí -->
+    <section class="about section" aria-labelledby="perfil">
+      <p class="eyebrow">01 / SOBRE MÍ</p>
+      <h2 id="perfil">Desarrollo web y trabajo en equipo</h2>
+      <p>
+        Actualmente curso el Curso Superior en Programación de Páginas Web en MasterD
+        y desarrollo proyectos propios bajo la marca Barrett Tecnología. Busco una
+        oportunidad como desarrollador web junior para colaborar en proyectos de
+        cualquier sector, aportar al equipo y seguir aprendiendo.
+      </p>
+      <p>
+        Mi experiencia en cocina me ha enseñado a coordinarme con otras personas,
+        organizar prioridades bajo presión y resolver problemas durante el servicio.
+        Aplico esas habilidades al desarrollo web para entender qué necesitan las
+        personas y crear herramientas fáciles de usar.
+      </p>
+      <p>
+        Trabajo con apoyo de herramientas de inteligencia artificial y continúo
+        aprendiendo a comprender, revisar y mejorar el código de mis proyectos.
+      </p>
+    </section>
 
-<article class="project"><div class="project-art echoes project-screenshot"><img src="assets/el-planeta-de-los-ecos.png" alt="Presentación de El Planeta de los Ecos — La Saga de los Barrett, con la nave Aetheris, puente de mando y tecnologías del proyecto." loading="lazy" width="1672" height="941"></div><div class="project-content"><p class="label">LA SAGA DE LOS BARRETT · EN DESARROLLO</p><h3>El Planeta de los Ecos</h3><p>Experiencia web narrativa con portada, capítulos y puente de mando. Trabajo en escenas espaciales con planetas, asteroides y hologramas 3D, partículas, interacciones y sonido generado en el navegador.</p><ul class="tags" aria-label="Tecnologías del proyecto"><li>HTML5 / CSS3</li><li>JavaScript</li><li>Three.js</li><li>Canvas 2D</li><li>Web Audio API</li><li>C++ / WASM</li></ul><div class="project-details"><p>El proyecto incluye un simulador de combate de la Aetheris con C++ y WebAssembly para su ejecución en el navegador.</p><h4>Características del proyecto</h4><ul class="feature-list"><li>Portada narrativa, capítulos y puente de mando.</li><li>Escenas 3D con planetas, asteroides y hologramas mediante Three.js.</li><li>Estrellas y partículas con Canvas 2D.</li><li>Movimientos e interacciones con JavaScript.</li><li>Sonidos de DRAGO-IA y ECO-001 mediante Web Audio API.</li><li>Simulador de combate de la Aetheris con C++ y WebAssembly.</li><li>Desarrollo local con VS Code, Chrome y Live Server.</li></ul></div><button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="3">Ver proyecto y características ↗</button></div></article>
+    <!-- BLOQUE 04 — Proyectos -->
+    <section class="section" id="proyectos">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">02 / TRABAJO PROPIO</p>
+          <h2>Proyectos seleccionados</h2>
+        </div>
+        <p>Aplicaciones y sitios en evolución.</p>
+      </div>
 
-<article class="project"><div class="project-art restaurant project-screenshot"><img src="assets/resto-drago-ia.png" alt="Presentación visual de Resto DRAGO-IA con panel general, mesas, cocina y mesero en varios dispositivos." loading="lazy" width="1672" height="941"></div><div class="project-content"><p class="label">GESTIÓN DE HOSTELERÍA · EN DESARROLLO</p><h3>Resto DRAGO IA</h3><p>Aplicación para organizar mesas, comandas y flujos de cocina, barra y caja. Trabajo en observaciones de pedidos, estados de preparación y envíos por destino.</p><ul class="tags" aria-label="Tecnologías"><li>Next.js</li><li>PostgreSQL</li><li>Interfaces</li></ul><div class="project-details"><h4>Características del proyecto</h4><ul class="feature-list"><li>Organización de mesas y comandas.</li><li>Flujos de cocina, barra y caja.</li><li>Observaciones en los pedidos.</li><li>Estados de preparación y envíos por destino.</li><li>Proyecto en desarrollo con Next.js y PostgreSQL.</li></ul></div><button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="4">Ver proyecto y características ↗</button></div></article>
-<article class="project"><div class="project-art recipes project-screenshot"><img src="assets/guayoyo-express.png" alt="Presentación de Guayoyo Express en ordenador y móvil, con recetas, favoritos, calculadora de costes y guía local de DRAGO-IA." loading="lazy" width="1536" height="1024"></div><div class="project-content"><p class="label">PLATAFORMA GASTRONÓMICA · PROYECTO PERSONAL</p><h3>Guayoyo Express</h3><p>Proyecto que une mi experiencia en cocina con el desarrollo web: catálogo de recetas con buscadores, filtros por categoría y páginas de detalle con ingredientes, preparación e imágenes propias.</p><ul class="tags" aria-label="Tecnologías de Guayoyo Express"><li>HTML5</li><li>CSS3 · Responsive</li><li>JavaScript</li><li>localStorage</li></ul><div class="project-details"><p>Desarrollo de favoritos y lista de compras con localStorage, calculadora de costes, juego gastronómico y guía local de DRAGO-IA. Interfaz adaptable a móvil, tablet y ordenador, con efectos visuales y animaciones CSS.</p><p>Organización del contenido, los estilos y la lógica en archivos separados para facilitar la ampliación del catálogo y el mantenimiento de las funciones.</p><h4>Características del proyecto</h4><ul class="feature-list"><li>Catálogo con buscadores y filtros por categoría.</li><li>Páginas de recetas con ingredientes, preparación e imágenes propias.</li><li>Favoritos y lista de compras guardados con localStorage.</li><li>Calculadora de costes.</li><li>Juego gastronómico y guía local de DRAGO-IA.</li><li>Diseño responsive con efectos visuales y animaciones CSS.</li><li>Contenido, estilos y lógica organizados en archivos separados.</li></ul></div><button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="5">Ver proyecto y características ↗</button></div></article>
-<article class="project"><div class="project-art player" aria-hidden="true"><span>MULTIMEDIA WEB</span><strong>DRAGO Player</strong><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><div class="project-content"><p class="label">AUDIO Y VÍDEO · PROYECTO PROPIO</p><h3>DRAGO Player</h3><p>Reproductor multimedia con archivos locales, listas y favoritos. Trabajo en controles de reproducción, organización de contenido y almacenamiento en el navegador.</p><ul class="tags" aria-label="Tecnologías"><li>JavaScript</li><li>IndexedDB</li><li>Multimedia</li></ul><div class="project-details"><h4>Características del proyecto</h4><ul class="feature-list"><li>Reproducción de audio y vídeo con archivos locales.</li><li>Listas de reproducción y favoritos.</li><li>Controles de reproducción.</li><li>Organización de contenido multimedia.</li><li>Almacenamiento en el navegador con IndexedDB.</li></ul></div><button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="6">Ver proyecto y características ↗</button></div></article>
-<article class="project"><div class="project-art brasas project-screenshot"><img src="assets/entre-cortes-y-brasas.png" alt="Presentación de Entre Cortes y Brasas con el Chef Guayoyo: guías de carnes, parrillas y recetas destacadas." loading="lazy" width="1536" height="1024"></div><div class="project-content"><p class="label">BIBLIOTECA GASTRONÓMICA · PROYECTO PERSONAL</p><h3>Entre Cortes y Brasas</h3><p>Sitio web gastronómico con guías de carnes, cortes y técnicas de cocina, además de 32 recetas completas con ingredientes, preparación y ajuste de raciones.</p><div class="project-details"><p>Proyecto desarrollado con HTML, CSS y JavaScript, con navegación entre secciones, fichas y recetas en ventanas modales y adaptación a dispositivos móviles.</p><p>Contenido y lógica organizados en archivos separados: cada receta tiene su propio archivo, las guías se agrupan por sección y los estilos se distribuyen entre navegación, tarjetas, recetas y ventanas.</p><h4>Características del proyecto</h4><ul class="feature-list"><li>Secciones de carnes, cortes, parrillas, términos de cocción, estofados y cerdo.</li><li>Guías de técnicas, marinados, salsas y recetas del mundo.</li><li>Apartado personal del Chef Guayoyo.</li><li>32 recetas completas, cada una en un archivo independiente.</li><li>Ajuste de raciones en las recetas.</li><li>Fichas y recetas en ventanas modales.</li><li>Diseño adaptable a móviles y navegación entre páginas.</li><li>Fotografías de platos creadas o mejoradas con generación de imágenes mediante IA.</li><li>Comprobación de sintaxis JavaScript con Node.js durante el desarrollo.</li><li>Uso de Python para organizar archivos, optimizar imágenes y preparar entregables ZIP.</li></ul></div><ul class="tags" aria-label="Tecnologías de Entre Cortes y Brasas"><li>HTML</li><li>CSS · Responsive</li><li>JavaScript</li></ul><button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="7">Ver proyecto y características ↗</button></div></article><article class="project"><div class="project-art project-screenshot"><img src="assets/escandallo-chef-guayoyo.png" alt="Vista conceptual de Escandallo Chef Guayoyo en ordenador y móvil, con ingredientes, costes y recetas." loading="lazy" width="1672" height="941"></div><div class="project-content"><p class="label">COSTES DE RECETAS · PROYECTO PERSONAL</p><h3>Escandallo Chef Guayoyo</h3><p>Herramienta web para calcular el coste de recetas e ingredientes, organizar fichas gastronómicas y consultar costes por porción.</p><div class="project-details"><p>Proyecto desarrollado con HTML, CSS y JavaScript, con páginas separadas para el escandallo, la presentación comercial y las pruebas de accesos. Los cálculos, recetas, imágenes y exportaciones se organizan en archivos JavaScript.</p><h4>Características del proyecto</h4><ul class="feature-list"><li>Cálculo de costes por ingrediente, receta y porción.</li><li>Tarjetas de recetas y ventanas con información detallada.</li><li>Selector de moneda.</li><li>Guardado de recetas con imagen.</li><li>Exportación a PDF y opción de compartir por WhatsApp.</li><li>Base local de fotografías de ingredientes.</li><li>Portada comercial y navegación entre páginas.</li><li>Pantallas de demostración para solicitudes de acceso, administración y mensualidades; integración con servidor pendiente.</li><li>Diseño adaptable a móvil y ordenador.</li><li>Desarrollo con Visual Studio Code, terminal y navegador web.</li></ul></div><ul class="tags" aria-label="Tecnologías de Escandallo Chef Guayoyo"><li>HTML</li><li>CSS · Responsive</li><li>JavaScript</li></ul><button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="8">Ver proyecto y características ↗</button></div></article><article class="project"><div class="project-art project-screenshot"><img src="assets/drago-store.png" alt="Presentación de DRAGO-STORE, catálogo de tecnología con categorías y fichas de productos preparadas para enlaces a Amazon." loading="lazy" width="1536" height="1024"></div><div class="project-content"><p class="label">CATÁLOGO DE PRODUCTOS · PROYECTO PERSONAL</p><h3>DRAGO-STORE</h3><p>Tienda web de productos tecnológicos y otros artículos, con catálogo por categorías y fichas preparadas para utilizar enlaces de afiliados de Amazon.</p><div class="project-details"><p>Proyecto desarrollado con HTML, CSS y JavaScript. Presentación de productos con imágenes, descripciones y características, con un diseño adaptable y una identidad visual propia.</p><h4>Características del proyecto</h4><ul class="feature-list"><li>Portada con imagen principal y navegación por secciones.</li><li>Catálogo organizado por categorías.</li><li>Tarjetas de productos con imagen, descripción y características.</li><li>Ventanas modales para consultar detalles de los productos.</li><li>Botones de acceso a Amazon y estructura preparada para enlaces de afiliados; activación del programa pendiente.</li><li>Diseño adaptable a móvil y ordenador.</li><li>Desarrollo con Visual Studio Code, Chrome, terminal y Live Server.</li><li>Publicación y guardado del código en GitHub previstos para una etapa posterior.</li></ul></div><ul class="tags" aria-label="Tecnologías de DRAGO-STORE"><li>HTML</li><li>CSS · Responsive</li><li>JavaScript</li></ul><button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="9">Ver proyecto y características ↗</button></div></article><article class="project"><div class="project-art project-screenshot"><img src="assets/resto-drago-ia-v2.png" alt="Propuesta visual de RESTO DRAGO-IA V2 en ordenador, tablet y teléfono, con mesas, cocina, barra y carta." loading="lazy" width="1672" height="941"></div><div class="project-content"><p class="label">GESTIÓN DE HOSTELERÍA · VERSIÓN 2 EN DESARROLLO</p><h3>RESTO DRAGO-IA V2</h3><p>Aplicación para restaurantes, cafeterías y bares, con interfaces para mesas, mesero, cocina, barra y caja. Desarrollada con Next.js, React y JavaScript/JSX.</p><div class="project-details"><p>Organización modular por funcionalidades para separar comandas, mesas, preparación, cobros, productos, configuración e historial. Diseño adaptable a teléfono, tablet y ordenador, con temas claro y oscuro.</p><h4>Características del proyecto</h4><ul class="feature-list"><li>Comandas, productos pedidos y envíos a cocina y barra.</li><li>Gestión de mesas, cambios de numeración y traslados.</li><li>Interfaz del mesero para teléfono y tablet.</li><li>Estados de preparación, avisos y tiempos en cocina y barra.</li><li>Caja, cobros, recibos y opción de compartir por WhatsApp.</li><li>Historial y números de registro.</li><li>Edición de carta, productos e imágenes.</li><li>Configuración de restaurante, logo, portada, zonas y zona horaria.</li><li>Resumen diario y exportación CSV.</li><li>Copias de seguridad y restauración.</li><li>Archivos CSS separados, pruebas automáticas y documentación.</li><li>Ejecución local mediante Node.js y npm; edición con VS Code y comprobación en Chrome.</li></ul></div><ul class="tags" aria-label="Tecnologías de RESTO DRAGO IA V2"><li>Next.js / React</li><li>JavaScript / JSX</li><li>CSS · Responsive</li><li>Node.js / npm</li></ul><button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="10">Ver proyecto y características ↗</button></div></article><article class="project"><div class="project-art project-screenshot"><img src="assets/pastas-salsas-chef-guayoyo.png" alt="Propuesta visual de Pastas y Salsas, con recetas de pasta, salsas, Academia del Chef y estructura del proyecto." loading="lazy" width="1672" height="941"></div><div class="project-content"><p class="label">BIBLIOTECA GASTRONÓMICA · PROYECTO EN DESARROLLO</p><h3>Pastas &amp; Salsas — Chef Guayoyo</h3><p>Sitio web de varias páginas sobre pasta italiana, salsas y combinaciones, con recetas, técnicas y una Academia del Chef. Proyecto que une mi experiencia gastronómica con el desarrollo web.</p><div class="project-details"><p>Carpeta prevista: pastas-salsas-chef-guayoyo. Contenido y código organizados en archivos pequeños para facilitar su ampliación y mantenimiento. La imagen presenta la propuesta visual y de organización; el catálogo y las funciones se están desarrollando.</p><h4>Características y alcance previsto</h4><ul class="feature-list"><li>Navegación entre inicio, pastas, salsas, combinaciones, academia del chef, recetario y contacto.</li><li>Catálogo de tipos de pasta, con formas, usos y preparaciones.</li><li>Salsas italianas con nombre original y subtítulo explicativo en español.</li><li>Combinaciones de pastas y salsas para orientar la elección de cada plato.</li><li>Academia del Chef: técnicas, masas y elaboración de pasta.</li><li>Recetario con ingredientes y preparación.</li><li>Imágenes originales generadas para el proyecto, con carpetas separadas para pastas, salsas, portada e iconos.</li><li>Objetivo visual: colecciones de 50 imágenes de pastas y 50 de salsas, pendientes de completar.</li><li>Estilo gastronómico rojo y dorado, tarjetas visuales y adaptación a móviles.</li><li>Estructura modular: páginas HTML, estilos CSS, lógica JavaScript y datos JSON separados.</li><li>Archivos previstos para instalación como app y funcionamiento sin conexión: manifest.json y service-worker.js; implementación pendiente.</li><li>Identidad de Chef Guayoyo, Barrett Tecnología y Sistema DRAGO-IA.</li></ul><h4>Contenido y organización</h4><p>Carbonara · Sapore di Mare · Vera Napoletana · Tartufo e Funghi · Pesto di Pistacchio e Limone · Arrabbiata.</p><p>pages/ · css/barrett.css · css/responsive.css · js/app.js · js/pastas.js · js/salsas.js · data/pastas.json · data/salsas.json · assets/img/</p></div><ul class="tags" aria-label="Tecnologías del proyecto"><li>HTML</li><li>CSS · Responsive</li><li>JavaScript</li><li>JSON</li></ul><button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="11">Ver proyecto y características ↗</button></div></article></div></section>
-<section class="section skills"><div><p class="eyebrow">03 / TECNOLOGÍAS</p><h2>Aprender construyendo</h2><p>Tecnologías utilizadas en mis proyectos. Continúo desarrollando mi autonomía y profundizando en sus fundamentos.</p></div><div class="skill-groups"><div><h3>Interfaces web</h3><p>HTML5 · CSS3 · JavaScript / JSX · React · Vite · Diseño responsive</p></div><div><h3>Aplicaciones y datos</h3><p>Next.js · PostgreSQL · Python · FastAPI · Pydantic · API REST · localStorage · IndexedDB</p></div><div><h3>Gráficos e interactividad en aprendizaje</h3><p>Three.js · Canvas 2D · Web Audio API · C++ · WebAssembly</p></div><div><h3>IA local y herramientas de desarrollo</h3><p>Ollama · Qwen3 8B · Visual Studio Code · Node.js / npm · PowerShell</p></div><div><h3>Forma de trabajar</h3><p>Organización de contenido · Resolución de problemas · Mejora continua</p></div></div></section>
-<section class="section education" id="formacion"><p class="eyebrow">04 / FORMACIÓN</p><h2>Una base que sigue creciendo</h2><div class="study"><span class="status">En curso</span><div><h3>Curso Superior en Programación de Páginas Web</h3><p>MasterD</p></div></div><div class="study"><span class="status">Finalizado · 2026</span><div><h3>HTML5 y CSS3 · IFCM036PO</h3><p>Centro de Estudios Álava · 40 horas · Teleformación</p><p>18 de junio - 2 de julio de 2026 · Calificación: apto.</p><p>Estructura y formularios HTML5, Canvas, audio y vídeo, CSS3 y fundamentos de JavaScript: objetos, arrays, DOM, eventos de formularios y buenas prácticas.</p><details class="course-documents"><summary class="button">Ver diploma y temario ↗</summary><p>Diploma de aprovechamiento y contenido del curso.</p><a href="assets/diploma-html-css.png" target="_blank" rel="noopener"><img src="assets/diploma-html-css.png" alt="Diploma HTML5 y CSS3 de Jesús Enrique Barreto Sifontes, Centro de Estudios Álava, 40 horas, julio de 2026" loading="lazy" style="width:100%;max-width:650px;height:auto"></a><p><a class="button" href="assets/temario-html-css.png" target="_blank" rel="noopener">Abrir temario completo ↗</a></p></details></div></div><div class="study editorial-course"><span class="status">Finalizado · 2026</span><div><p class="eyebrow">INTELIGENCIA ARTIFICIAL APLICADA</p><h3>Aplica la IA en tu empresa. Intermedio</h3><p><strong>MOBA Skill Training, S. L.</strong> · Generación Digital Pymes</p><p>150 horas · Modalidad mixta · Vigo<br>15 de mayo - 18 de junio de 2026</p><p>Formación en aplicación estratégica de IA, marketing y ventas, atención al cliente y chatbots, automatización de procesos, finanzas, ciberseguridad y ética.</p><details class="course-documents"><summary class="button">Consultar formación y documentos ↗</summary><div class="course-editorial"><h4>Programa de formación</h4><ol><li>Fundamentos estratégicos: desarrolla tu negocio con IA · 6 h.</li><li>Marketing con IA · 8 h.</li><li>Ventas con IA · 6 h.</li><li>Atención al cliente y chatbot con IA · 8 h.</li><li>Automatización de procesos con IA · 8 h.</li><li>Finanzas con IA · 8 h.</li><li>Ciberseguridad y ética en el uso de IA · 6 h.</li></ol><p>50 horas de sesiones formativas y 100 horas de trabajo del alumno. Mentorización opcional: 1,5 horas.</p><div class="actions"><a class="button" href="assets/diploma-ia-empresa.png" target="_blank" rel="noopener">Ver diploma ↗</a><a class="button" href="assets/temario-ia-empresa.png" target="_blank" rel="noopener">Ver temario original ↗</a></div></div></details></div></div></section>
-<section class="section contact" id="contacto"><p class="eyebrow">05 / CONTACTO</p><h2>Mi siguiente paso:<br>aprender en equipo.</h2><p>Busco una oportunidad como desarrollador web junior para aportar, recibir feedback y crecer profesionalmente.</p><dl><div><dt>Email personal</dt><dd><a href="mailto:jbarreto1622@gmail.com">jbarreto1622@gmail.com</a></dd></div><div><dt>Email Barrett Tecnología</dt><dd><a href="mailto:drago.ia.1622@gmail.com">drago.ia.1622@gmail.com</a></dd></div><div><dt>WhatsApp</dt><dd><a href="https://wa.me/34689345235" target="_blank" rel="noopener noreferrer">+34 689 345 235</a></dd></div><div><dt>WhatsApp Business</dt><dd><a href="https://wa.me/34614550520" target="_blank" rel="noopener noreferrer">+34 614 550 520</a></dd></div><div><dt>Mi página web</dt><dd><a href="https://dragoia1622-beep.github.io/BARRETT-TECNOLOGIA/index.html" target="_blank" rel="noopener noreferrer">Barrett Tecnología ↗</a></dd></div></dl></section>
-</main><footer><strong>JB / Jesús Barreto</strong><p>Diseñado por Barrett Tecnología · Sistema DRAGO IA</p><a href="#inicio">Volver arriba ↑</a></footer>
-<dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-toolbar"><span>EXPLORAR PROYECTO</span><button type="button" id="ampliar-proyecto" aria-pressed="false">Ampliar ↗</button><button type="button" id="cerrar-proyecto" aria-label="Cerrar detalles del proyecto">Cerrar ×</button></div><div id="dialog-content"></div></dialog></body></html>
+      <div class="projects">
+        <article class="project">
+          <div class="project-art access project-screenshot">
+            <img src="assets/drago-access.png" alt="Vista conceptual de Drago Access en ordenador y móvil, con acceso por QR, clave personal o DNI/NIE." loading="lazy" width="1672" height="941">
+          </div>
+          <div class="project-content">
+            <p class="label">DEMOSTRACIÓN · INTEGRACIÓN REAL PREPARADA</p>
+            <h3>Drago Access</h3>
+            <p>Aplicación de control de acceso de empleados con identificación por QR, clave personal o DNI/NIE, registro de fecha y hora e historial consultable.</p>
+            <ul class="tags" aria-label="Tecnologías de Drago Access">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Node.js · Pruebas</li>
+              <li>Git</li>
+            </ul>
+            <div class="project-details">
+              <p>Interfaz adaptable a móvil, tablet y ordenador. Código separado en interfaz, lógica de identificación y validaciones, y adaptador preparado para conectar un servidor real. Funciona con datos de demostración cuando no hay servidor conectado.</p>
+              <p>Pruebas de funcionamiento ejecutadas con Node.js y npm, control de versiones con Git y documentación de configuración e integración.</p>
+              <h4>Características del proyecto</h4>
+              <ul class="feature-list">
+                <li>Lectura de QR mediante cámara.</li>
+                <li>Identificación con clave personal o DNI/NIE.</li>
+                <li>Registro de fecha y hora y estados de acceso.</li>
+                <li>Gestión de empleados e historial consultable.</li>
+                <li>Datos de demostración y adaptador para servidor real.</li>
+                <li>Pruebas con Node.js y npm, Git y documentación de integración.</li>
+              </ul>
+            </div>
+            <button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="0">Ver proyecto y características ↗</button>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-art reservas project-screenshot">
+            <img src="assets/drago-reservas.png" alt="Concepto visual de DRAGO RESERVAS en ordenador y móvil con buscador de mesas, restaurantes y servicios gastronómicos." loading="lazy" width="1536" height="1024">
+          </div>
+          <div class="project-content">
+            <p class="label">HOSTELERÍA · DEMOSTRACIÓN CON DATOS LOCALES</p>
+            <h3>DRAGO RESERVAS</h3>
+            <p>Proyecto web para reservas de restaurantes, con horarios, aforo, lista de espera, favoritos y exportación al calendario mediante archivos .ics. Incluye traducciones a diez idiomas, galería táctil, escandallo integrado y pedidos de delivery de prueba.</p>
+            <ul class="tags" aria-label="Tecnologías del proyecto">
+              <li>HTML / CSS</li>
+              <li>JavaScript</li>
+              <li>localStorage</li>
+              <li>IndexedDB</li>
+              <li>Node.js · Pruebas</li>
+            </ul>
+            <div class="project-details">
+              <p>Organización del código por funcionalidades, datos de demostración en localStorage, vídeos locales en IndexedDB, copias de seguridad y restauración. Incluye pruebas automáticas ejecutadas con Node.js y un asistente con respuestas predefinidas.</p>
+              <h4>Características del proyecto</h4>
+              <ul class="feature-list">
+                <li>Agenda, horarios, aforo y modificación de reservas.</li>
+                <li>Clientes, favoritos y lista de espera.</li>
+                <li>Carta, delivery opcional y pedidos de prueba.</li>
+                <li>Exportación de reservas al calendario en formato .ics.</li>
+                <li>Traducciones a diez idiomas y galería con navegación táctil.</li>
+                <li>Escandallo Chef Guayoyo integrado.</li>
+                <li>Vídeos locales con IndexedDB y datos con localStorage.</li>
+                <li>Copias de seguridad, restauración y resumen de actividad.</li>
+                <li>DRAGO Guía con respuestas predefinidas.</li>
+                <li>Pruebas automáticas con Node.js.</li>
+              </ul>
+            </div>
+            <button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="1">Ver proyecto y características ↗</button>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-art drago-ai project-screenshot">
+            <img src="assets/drago-ia-destructor.png" alt="Presentación de la arquitectura del proyecto DRAGO-IA DESTRUCTOR, con React, FastAPI, Ollama y Qwen3." loading="lazy" width="1672" height="941">
+          </div>
+          <div class="project-content">
+            <p class="label">DESTRUCTOR · PROYECTO PERSONAL EN DESARROLLO</p>
+            <h3>DRAGO-IA DESTRUCTOR</h3>
+            <p>Asistente de inteligencia artificial que funciona principalmente en mi ordenador. Trabajo en una interfaz de tres columnas con React y Vite, conectada mediante HTTP y API REST a un servidor Python con FastAPI y validación de datos con Pydantic.</p>
+            <ul class="tags" aria-label="Tecnologías del proyecto">
+              <li>React / JSX</li>
+              <li>Vite</li>
+              <li>Python / FastAPI</li>
+              <li>Pydantic</li>
+              <li>API REST</li>
+              <li>Ollama / Qwen3 8B</li>
+            </ul>
+            <div class="project-details">
+              <p>Integración de Ollama para ejecutar localmente el modelo Qwen3 8B, con control sobre la interfaz y los datos del proyecto.</p>
+              <h4>Características del proyecto</h4>
+              <ul class="feature-list">
+                <li>Interfaz de tres columnas con React, JSX y CSS.</li>
+                <li>Desarrollo y compilación de la interfaz con Vite.</li>
+                <li>Servidor Python con FastAPI.</li>
+                <li>Validación de datos del backend con Pydantic.</li>
+                <li>Comunicación HTTP y API REST entre interfaz, servidor y Ollama.</li>
+                <li>Ejecución local de Qwen3 mediante el modelo qwen3:8b.</li>
+                <li>Herramientas de trabajo: VS Code, Node.js, npm y PowerShell.</li>
+              </ul>
+            </div>
+            <button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="2">Ver proyecto y características ↗</button>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-art echoes project-screenshot">
+            <img src="assets/el-planeta-de-los-ecos.png" alt="Presentación de El Planeta de los Ecos — La Saga de los Barrett, con la nave Aetheris, puente de mando y tecnologías del proyecto." loading="lazy" width="1672" height="941">
+          </div>
+          <div class="project-content">
+            <p class="label">LA SAGA DE LOS BARRETT · EN DESARROLLO</p>
+            <h3>El Planeta de los Ecos</h3>
+            <p>Experiencia web narrativa con portada, capítulos y puente de mando. Trabajo en escenas espaciales con planetas, asteroides y hologramas 3D, partículas, interacciones y sonido generado en el navegador.</p>
+            <ul class="tags" aria-label="Tecnologías del proyecto">
+              <li>HTML5 / CSS3</li>
+              <li>JavaScript</li>
+              <li>Three.js</li>
+              <li>Canvas 2D</li>
+              <li>Web Audio API</li>
+              <li>C++ / WASM</li>
+            </ul>
+            <div class="project-details">
+              <p>El proyecto incluye un simulador de combate de la Aetheris con C++ y WebAssembly para su ejecución en el navegador.</p>
+              <h4>Características del proyecto</h4>
+              <ul class="feature-list">
+                <li>Portada narrativa, capítulos y puente de mando.</li>
+                <li>Escenas 3D con planetas, asteroides y hologramas mediante Three.js.</li>
+                <li>Estrellas y partículas con Canvas 2D.</li>
+                <li>Movimientos e interacciones con JavaScript.</li>
+                <li>Sonidos de DRAGO-IA y ECO-001 mediante Web Audio API.</li>
+                <li>Simulador de combate de la Aetheris con C++ y WebAssembly.</li>
+                <li>Desarrollo local con VS Code, Chrome y Live Server.</li>
+              </ul>
+            </div>
+            <button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="3">Ver proyecto y características ↗</button>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-art restaurant project-screenshot">
+            <img src="assets/resto-drago-ia.png" alt="Presentación visual de Resto DRAGO-IA con panel general, mesas, cocina y mesero en varios dispositivos." loading="lazy" width="1672" height="941">
+          </div>
+          <div class="project-content">
+            <p class="label">GESTIÓN DE HOSTELERÍA · EN DESARROLLO</p>
+            <h3>Resto DRAGO IA</h3>
+            <p>Aplicación para organizar mesas, comandas y flujos de cocina, barra y caja. Trabajo en observaciones de pedidos, estados de preparación y envíos por destino.</p>
+            <ul class="tags" aria-label="Tecnologías">
+              <li>Next.js</li>
+              <li>PostgreSQL</li>
+              <li>Interfaces</li>
+            </ul>
+            <div class="project-details">
+              <h4>Características del proyecto</h4>
+              <ul class="feature-list">
+                <li>Organización de mesas y comandas.</li>
+                <li>Flujos de cocina, barra y caja.</li>
+                <li>Observaciones en los pedidos.</li>
+                <li>Estados de preparación y envíos por destino.</li>
+                <li>Proyecto en desarrollo con Next.js y PostgreSQL.</li>
+              </ul>
+            </div>
+            <button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="4">Ver proyecto y características ↗</button>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-art recipes project-screenshot">
+            <img src="assets/guayoyo-express.png" alt="Presentación de Guayoyo Express en ordenador y móvil, con recetas, favoritos, calculadora de costes y guía local de DRAGO-IA." loading="lazy" width="1536" height="1024">
+          </div>
+          <div class="project-content">
+            <p class="label">PLATAFORMA GASTRONÓMICA · PROYECTO PERSONAL</p>
+            <h3>Guayoyo Express</h3>
+            <p>Proyecto que une mi experiencia en cocina con el desarrollo web: catálogo de recetas con buscadores, filtros por categoría y páginas de detalle con ingredientes, preparación e imágenes propias.</p>
+            <ul class="tags" aria-label="Tecnologías de Guayoyo Express">
+              <li>HTML5</li>
+              <li>CSS3 · Responsive</li>
+              <li>JavaScript</li>
+              <li>localStorage</li>
+            </ul>
+            <div class="project-details">
+              <p>Desarrollo de favoritos y lista de compras con localStorage, calculadora de costes, juego gastronómico y guía local de DRAGO-IA. Interfaz adaptable a móvil, tablet y ordenador, con efectos visuales y animaciones CSS.</p>
+              <p>Organización del contenido, los estilos y la lógica en archivos separados para facilitar la ampliación del catálogo y el mantenimiento de las funciones.</p>
+              <h4>Características del proyecto</h4>
+              <ul class="feature-list">
+                <li>Catálogo con buscadores y filtros por categoría.</li>
+                <li>Páginas de recetas con ingredientes, preparación e imágenes propias.</li>
+                <li>Favoritos y lista de compras guardados con localStorage.</li>
+                <li>Calculadora de costes.</li>
+                <li>Juego gastronómico y guía local de DRAGO-IA.</li>
+                <li>Diseño responsive con efectos visuales y animaciones CSS.</li>
+                <li>Contenido, estilos y lógica organizados en archivos separados.</li>
+              </ul>
+            </div>
+            <button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="5">Ver proyecto y características ↗</button>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-art player" aria-hidden="true">
+            <span>MULTIMEDIA WEB</span>
+            <strong>DRAGO Player</strong>
+            <div class="bars">
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <p class="label">AUDIO Y VÍDEO · PROYECTO PROPIO</p>
+            <h3>DRAGO Player</h3>
+            <p>Reproductor multimedia con archivos locales, listas y favoritos. Trabajo en controles de reproducción, organización de contenido y almacenamiento en el navegador.</p>
+            <ul class="tags" aria-label="Tecnologías">
+              <li>JavaScript</li>
+              <li>IndexedDB</li>
+              <li>Multimedia</li>
+            </ul>
+            <div class="project-details">
+              <h4>Características del proyecto</h4>
+              <ul class="feature-list">
+                <li>Reproducción de audio y vídeo con archivos locales.</li>
+                <li>Listas de reproducción y favoritos.</li>
+                <li>Controles de reproducción.</li>
+                <li>Organización de contenido multimedia.</li>
+                <li>Almacenamiento en el navegador con IndexedDB.</li>
+              </ul>
+            </div>
+            <button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="6">Ver proyecto y características ↗</button>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-art brasas project-screenshot">
+            <img src="assets/entre-cortes-y-brasas.png" alt="Presentación de Entre Cortes y Brasas con el Chef Guayoyo: guías de carnes, parrillas y recetas destacadas." loading="lazy" width="1536" height="1024">
+          </div>
+          <div class="project-content">
+            <p class="label">BIBLIOTECA GASTRONÓMICA · PROYECTO PERSONAL</p>
+            <h3>Entre Cortes y Brasas</h3>
+            <p>Sitio web gastronómico con guías de carnes, cortes y técnicas de cocina, además de 32 recetas completas con ingredientes, preparación y ajuste de raciones.</p>
+            <div class="project-details">
+              <p>Proyecto desarrollado con HTML, CSS y JavaScript, con navegación entre secciones, fichas y recetas en ventanas modales y adaptación a dispositivos móviles.</p>
+              <p>Contenido y lógica organizados en archivos separados: cada receta tiene su propio archivo, las guías se agrupan por sección y los estilos se distribuyen entre navegación, tarjetas, recetas y ventanas.</p>
+              <h4>Características del proyecto</h4>
+              <ul class="feature-list">
+                <li>Secciones de carnes, cortes, parrillas, términos de cocción, estofados y cerdo.</li>
+                <li>Guías de técnicas, marinados, salsas y recetas del mundo.</li>
+                <li>Apartado personal del Chef Guayoyo.</li>
+                <li>32 recetas completas, cada una en un archivo independiente.</li>
+                <li>Ajuste de raciones en las recetas.</li>
+                <li>Fichas y recetas en ventanas modales.</li>
+                <li>Diseño adaptable a móviles y navegación entre páginas.</li>
+                <li>Fotografías de platos creadas o mejoradas con generación de imágenes mediante IA.</li>
+                <li>Comprobación de sintaxis JavaScript con Node.js durante el desarrollo.</li>
+                <li>Uso de Python para organizar archivos, optimizar imágenes y preparar entregables ZIP.</li>
+              </ul>
+            </div>
+            <ul class="tags" aria-label="Tecnologías de Entre Cortes y Brasas">
+              <li>HTML</li>
+              <li>CSS · Responsive</li>
+              <li>JavaScript</li>
+            </ul>
+            <button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="7">Ver proyecto y características ↗</button>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-art project-screenshot">
+            <img src="assets/escandallo-chef-guayoyo.png" alt="Vista conceptual de Escandallo Chef Guayoyo en ordenador y móvil, con ingredientes, costes y recetas." loading="lazy" width="1672" height="941">
+          </div>
+          <div class="project-content">
+            <p class="label">COSTES DE RECETAS · PROYECTO PERSONAL</p>
+            <h3>Escandallo Chef Guayoyo</h3>
+            <p>Herramienta web para calcular el coste de recetas e ingredientes, organizar fichas gastronómicas y consultar costes por porción.</p>
+            <div class="project-details">
+              <p>Proyecto desarrollado con HTML, CSS y JavaScript, con páginas separadas para el escandallo, la presentación comercial y las pruebas de accesos. Los cálculos, recetas, imágenes y exportaciones se organizan en archivos JavaScript.</p>
+              <h4>Características del proyecto</h4>
+              <ul class="feature-list">
+                <li>Cálculo de costes por ingrediente, receta y porción.</li>
+                <li>Tarjetas de recetas y ventanas con información detallada.</li>
+                <li>Selector de moneda.</li>
+                <li>Guardado de recetas con imagen.</li>
+                <li>Exportación a PDF y opción de compartir por WhatsApp.</li>
+                <li>Base local de fotografías de ingredientes.</li>
+                <li>Portada comercial y navegación entre páginas.</li>
+                <li>Pantallas de demostración para solicitudes de acceso, administración y mensualidades; integración con servidor pendiente.</li>
+                <li>Diseño adaptable a móvil y ordenador.</li>
+                <li>Desarrollo con Visual Studio Code, terminal y navegador web.</li>
+              </ul>
+            </div>
+            <ul class="tags" aria-label="Tecnologías de Escandallo Chef Guayoyo">
+              <li>HTML</li>
+              <li>CSS · Responsive</li>
+              <li>JavaScript</li>
+            </ul>
+            <button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="8">Ver proyecto y características ↗</button>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-art project-screenshot">
+            <img src="assets/drago-store.png" alt="Presentación de DRAGO-STORE, catálogo de tecnología con categorías y fichas de productos preparadas para enlaces a Amazon." loading="lazy" width="1536" height="1024">
+          </div>
+          <div class="project-content">
+            <p class="label">CATÁLOGO DE PRODUCTOS · PROYECTO PERSONAL</p>
+            <h3>DRAGO-STORE</h3>
+            <p>Tienda web de productos tecnológicos y otros artículos, con catálogo por categorías y fichas preparadas para utilizar enlaces de afiliados de Amazon.</p>
+            <div class="project-details">
+              <p>Proyecto desarrollado con HTML, CSS y JavaScript. Presentación de productos con imágenes, descripciones y características, con un diseño adaptable y una identidad visual propia.</p>
+              <h4>Características del proyecto</h4>
+              <ul class="feature-list">
+                <li>Portada con imagen principal y navegación por secciones.</li>
+                <li>Catálogo organizado por categorías.</li>
+                <li>Tarjetas de productos con imagen, descripción y características.</li>
+                <li>Ventanas modales para consultar detalles de los productos.</li>
+                <li>Botones de acceso a Amazon y estructura preparada para enlaces de afiliados; activación del programa pendiente.</li>
+                <li>Diseño adaptable a móvil y ordenador.</li>
+                <li>Desarrollo con Visual Studio Code, Chrome, terminal y Live Server.</li>
+                <li>Publicación y guardado del código en GitHub previstos para una etapa posterior.</li>
+              </ul>
+            </div>
+            <ul class="tags" aria-label="Tecnologías de DRAGO-STORE">
+              <li>HTML</li>
+              <li>CSS · Responsive</li>
+              <li>JavaScript</li>
+            </ul>
+            <button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="9">Ver proyecto y características ↗</button>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-art project-screenshot">
+            <img src="assets/resto-drago-ia-v2.png" alt="Propuesta visual de RESTO DRAGO-IA V2 en ordenador, tablet y teléfono, con mesas, cocina, barra y carta." loading="lazy" width="1672" height="941">
+          </div>
+          <div class="project-content">
+            <p class="label">GESTIÓN DE HOSTELERÍA · VERSIÓN 2 EN DESARROLLO</p>
+            <h3>RESTO DRAGO-IA V2</h3>
+            <p>Aplicación para restaurantes, cafeterías y bares, con interfaces para mesas, mesero, cocina, barra y caja. Desarrollada con Next.js, React y JavaScript/JSX.</p>
+            <div class="project-details">
+              <p>Organización modular por funcionalidades para separar comandas, mesas, preparación, cobros, productos, configuración e historial. Diseño adaptable a teléfono, tablet y ordenador, con temas claro y oscuro.</p>
+              <h4>Características del proyecto</h4>
+              <ul class="feature-list">
+                <li>Comandas, productos pedidos y envíos a cocina y barra.</li>
+                <li>Gestión de mesas, cambios de numeración y traslados.</li>
+                <li>Interfaz del mesero para teléfono y tablet.</li>
+                <li>Estados de preparación, avisos y tiempos en cocina y barra.</li>
+                <li>Caja, cobros, recibos y opción de compartir por WhatsApp.</li>
+                <li>Historial y números de registro.</li>
+                <li>Edición de carta, productos e imágenes.</li>
+                <li>Configuración de restaurante, logo, portada, zonas y zona horaria.</li>
+                <li>Resumen diario y exportación CSV.</li>
+                <li>Copias de seguridad y restauración.</li>
+                <li>Archivos CSS separados, pruebas automáticas y documentación.</li>
+                <li>Ejecución local mediante Node.js y npm; edición con VS Code y comprobación en Chrome.</li>
+              </ul>
+            </div>
+            <ul class="tags" aria-label="Tecnologías de RESTO DRAGO IA V2">
+              <li>Next.js / React</li>
+              <li>JavaScript / JSX</li>
+              <li>CSS · Responsive</li>
+              <li>Node.js / npm</li>
+            </ul>
+            <button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="10">Ver proyecto y características ↗</button>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-art project-screenshot">
+            <img src="assets/pastas-salsas-chef-guayoyo.png" alt="Propuesta visual de Pastas y Salsas, con recetas de pasta, salsas, Academia del Chef y estructura del proyecto." loading="lazy" width="1672" height="941">
+          </div>
+          <div class="project-content">
+            <p class="label">BIBLIOTECA GASTRONÓMICA · PROYECTO EN DESARROLLO</p>
+            <h3>Pastas &amp; Salsas — Chef Guayoyo</h3>
+            <p>Sitio web de varias páginas sobre pasta italiana, salsas y combinaciones, con recetas, técnicas y una Academia del Chef. Proyecto que une mi experiencia gastronómica con el desarrollo web.</p>
+            <div class="project-details">
+              <p>Carpeta prevista: pastas-salsas-chef-guayoyo. Contenido y código organizados en archivos pequeños para facilitar su ampliación y mantenimiento. La imagen presenta la propuesta visual y de organización; el catálogo y las funciones se están desarrollando.</p>
+              <h4>Características y alcance previsto</h4>
+              <ul class="feature-list">
+                <li>Navegación entre inicio, pastas, salsas, combinaciones, academia del chef, recetario y contacto.</li>
+                <li>Catálogo de tipos de pasta, con formas, usos y preparaciones.</li>
+                <li>Salsas italianas con nombre original y subtítulo explicativo en español.</li>
+                <li>Combinaciones de pastas y salsas para orientar la elección de cada plato.</li>
+                <li>Academia del Chef: técnicas, masas y elaboración de pasta.</li>
+                <li>Recetario con ingredientes y preparación.</li>
+                <li>Imágenes originales generadas para el proyecto, con carpetas separadas para pastas, salsas, portada e iconos.</li>
+                <li>Objetivo visual: colecciones de 50 imágenes de pastas y 50 de salsas, pendientes de completar.</li>
+                <li>Estilo gastronómico rojo y dorado, tarjetas visuales y adaptación a móviles.</li>
+                <li>Estructura modular: páginas HTML, estilos CSS, lógica JavaScript y datos JSON separados.</li>
+                <li>Archivos previstos para instalación como app y funcionamiento sin conexión: manifest.json y service-worker.js; implementación pendiente.</li>
+                <li>Identidad de Chef Guayoyo, Barrett Tecnología y Sistema DRAGO-IA.</li>
+              </ul>
+              <h4>Contenido y organización</h4>
+              <p>Carbonara · Sapore di Mare · Vera Napoletana · Tartufo e Funghi · Pesto di Pistacchio e Limone · Arrabbiata.</p>
+              <p>pages/ · css/barrett.css · css/responsive.css · js/app.js · js/pastas.js · js/salsas.js · data/pastas.json · data/salsas.json · assets/img/</p>
+            </div>
+            <ul class="tags" aria-label="Tecnologías del proyecto">
+              <li>HTML</li>
+              <li>CSS · Responsive</li>
+              <li>JavaScript</li>
+              <li>JSON</li>
+            </ul>
+            <button class="button project-open" type="button" aria-haspopup="dialog" aria-controls="project-dialog" data-project="11">Ver proyecto y características ↗</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- BLOQUE 05 — Tecnologías -->
+    <section class="section skills">
+      <div>
+        <p class="eyebrow">03 / TECNOLOGÍAS</p>
+        <h2>Aprender construyendo</h2>
+        <p>Tecnologías utilizadas en mis proyectos. Continúo desarrollando mi autonomía y profundizando en sus fundamentos.</p>
+      </div>
+      <div class="skill-groups">
+        <div>
+          <h3>Interfaces web</h3>
+          <p>HTML5 · CSS3 · JavaScript / JSX · React · Vite · Diseño responsive</p>
+        </div>
+        <div>
+          <h3>Aplicaciones y datos</h3>
+          <p>Next.js · PostgreSQL · Python · FastAPI · Pydantic · API REST · localStorage · IndexedDB</p>
+        </div>
+        <div>
+          <h3>Gráficos e interactividad en aprendizaje</h3>
+          <p>Three.js · Canvas 2D · Web Audio API · C++ · WebAssembly</p>
+        </div>
+        <div>
+          <h3>IA local y herramientas de desarrollo</h3>
+          <p>Ollama · Qwen3 8B · Visual Studio Code · Node.js / npm · PowerShell</p>
+        </div>
+        <div>
+          <h3>Forma de trabajar</h3>
+          <p>Organización de contenido · Resolución de problemas · Mejora continua</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOQUE 06 — Formación -->
+    <section class="section education" id="formacion">
+      <p class="eyebrow">04 / FORMACIÓN</p>
+      <h2>Una base que sigue creciendo</h2>
+
+      <div class="study">
+        <span class="status">En curso</span>
+        <div>
+          <h3>Curso Superior en Programación de Páginas Web</h3>
+          <p>MasterD</p>
+        </div>
+      </div>
+
+      <div class="study">
+        <span class="status">Finalizado · 2026</span>
+        <div>
+          <h3>HTML5 y CSS3 · IFCM036PO</h3>
+          <p>Centro de Estudios Álava · 40 horas · Teleformación</p>
+          <p>18 de junio - 2 de julio de 2026 · Calificación: apto.</p>
+          <p>Estructura y formularios HTML5, Canvas, audio y vídeo, CSS3 y fundamentos de JavaScript: objetos, arrays, DOM, eventos de formularios y buenas prácticas.</p>
+          <details class="course-documents">
+            <summary class="button">Ver diploma y temario ↗</summary>
+            <p>Diploma de aprovechamiento y contenido del curso.</p>
+            <a href="assets/diploma-html-css.png" target="_blank" rel="noopener">
+              <img src="assets/diploma-html-css.png" alt="Diploma HTML5 y CSS3 de Jesús Enrique Barreto Sifontes, Centro de Estudios Álava, 40 horas, julio de 2026" loading="lazy" style="width:100%;max-width:650px;height:auto">
+            </a>
+            <p>
+              <a class="button" href="assets/temario-html-css.png" target="_blank" rel="noopener">Abrir temario completo ↗</a>
+            </p>
+          </details>
+        </div>
+      </div>
+
+      <div class="study editorial-course">
+        <span class="status">Finalizado · 2026</span>
+        <div>
+          <p class="eyebrow">INTELIGENCIA ARTIFICIAL APLICADA</p>
+          <h3>Aplica la IA en tu empresa. Intermedio</h3>
+          <p><strong>MOBA Skill Training, S. L.</strong> · Generación Digital Pymes</p>
+          <p>150 horas · Modalidad mixta · Vigo<br>15 de mayo - 18 de junio de 2026</p>
+          <p>Formación en aplicación estratégica de IA, marketing y ventas, atención al cliente y chatbots, automatización de procesos, finanzas, ciberseguridad y ética.</p>
+          <details class="course-documents">
+            <summary class="button">Consultar formación y documentos ↗</summary>
+            <div class="course-editorial">
+              <h4>Programa de formación</h4>
+              <ol>
+                <li>Fundamentos estratégicos: desarrolla tu negocio con IA · 6 h.</li>
+                <li>Marketing con IA · 8 h.</li>
+                <li>Ventas con IA · 6 h.</li>
+                <li>Atención al cliente y chatbot con IA · 8 h.</li>
+                <li>Automatización de procesos con IA · 8 h.</li>
+                <li>Finanzas con IA · 8 h.</li>
+                <li>Ciberseguridad y ética en el uso de IA · 6 h.</li>
+              </ol>
+              <p>50 horas de sesiones formativas y 100 horas de trabajo del alumno. Mentorización opcional: 1,5 horas.</p>
+              <div class="actions">
+                <a class="button" href="assets/diploma-ia-empresa.png" target="_blank" rel="noopener">Ver diploma ↗</a>
+                <a class="button" href="assets/temario-ia-empresa.png" target="_blank" rel="noopener">Ver temario original ↗</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOQUE 07 — Contacto -->
+    <section class="section contact" id="contacto">
+      <p class="eyebrow">05 / CONTACTO</p>
+      <h2>Mi siguiente paso:<br>aprender en equipo.</h2>
+      <p>Busco una oportunidad como desarrollador web junior para aportar, recibir feedback y crecer profesionalmente.</p>
+      <dl>
+        <div>
+          <dt>Email personal</dt>
+          <dd><a href="mailto:jbarreto1622@gmail.com">jbarreto1622@gmail.com</a></dd>
+        </div>
+        <div>
+          <dt>Email Barrett Tecnología</dt>
+          <dd><a href="mailto:drago.ia.1622@gmail.com">drago.ia.1622@gmail.com</a></dd>
+        </div>
+        <div>
+          <dt>WhatsApp</dt>
+          <dd><a href="https://wa.me/34689345235" target="_blank" rel="noopener noreferrer">+34 689 345 235</a></dd>
+        </div>
+        <div>
+          <dt>WhatsApp Business</dt>
+          <dd><a href="https://wa.me/34614550520" target="_blank" rel="noopener noreferrer">+34 614 550 520</a></dd>
+        </div>
+        <div>
+          <dt>Mi página web</dt>
+          <dd><a href="https://dragoia1622-beep.github.io/BARRETT-TECNOLOGIA/index.html" target="_blank" rel="noopener noreferrer">Barrett Tecnología ↗</a></dd>
+        </div>
+      </dl>
+    </section>
+  </main>
+
+  <!-- BLOQUE 08 — Pie de página -->
+  <footer>
+    <strong>JB / Jesús Barreto</strong>
+    <p>Diseñado por Barrett Tecnología · Sistema DRAGO IA</p>
+    <a href="#inicio">Volver arriba ↑</a>
+  </footer>
+
+  <!-- BLOQUE 09 — Detalles del proyecto -->
+  <dialog id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-toolbar">
+      <span>EXPLORAR PROYECTO</span>
+      <button type="button" id="ampliar-proyecto" aria-pressed="false">Ampliar ↗</button>
+      <button type="button" id="cerrar-proyecto" aria-label="Cerrar detalles del proyecto">Cerrar ×</button>
+    </div>
+    <div id="dialog-content"></div>
+  </dialog>
+</body>
+</html>
